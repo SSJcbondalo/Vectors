@@ -1,5 +1,5 @@
 //declare variables
-int count = 10;
+int count = 600;
 float diam;
 int i;
 
@@ -37,7 +37,7 @@ void setup() {
 void draw() {
   //draw background to cover previous frame
   background(0);
-  for (int i = count; i < count; i++) {
+  for (int i = 0; i < count; i++) {
     //draw ball
     ellipse(loc[i].x, loc[i].y, diam, diam);
 
