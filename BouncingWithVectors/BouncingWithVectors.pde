@@ -1,7 +1,7 @@
 //declare variables
-int count = 10;
+int count = 600;
 float diam;
-int i;
+
 
 //float x,y 
 PVector[] loc= new PVector[count];  //replaces x and y
@@ -36,8 +36,10 @@ void setup() {
 
 void draw() {
   //draw background to cover previous frame
-  background(0);
-  for (int i = count; i < count; i++) {
+   background(0);
+  for (int i = 0; i < count; i++) {
+  
+    
     //draw ball
     ellipse(loc[i].x, loc[i].y, diam, diam);
 
